@@ -1,0 +1,81 @@
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .main__brands-section-img {
+    width: 200px;
+    height: 200px;
+
+    padding: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main__brands-section-img {
+    width: 150px;
+    height: 150px;
+
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  ul.navbar-nav {
+    font-family: var(--font-dana);
+  }
+
+  .main__top-site-section-products-wrapper > div.col-12 {
+    max-height: none;
+
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .main__section-titles::after {
+    right: 0;
+    left: 0;
+
+    width: 40px;
+    height: 8px;
+
+    margin: 0 auto;
+  }
+
+  div.card {
+    min-width: 75% !important;
+    margin: 0 auto;
+
+    text-align: center;
+  }
+
+  .main__most-discounted-products-section-title {
+    max-width: none;
+    text-align: center;
+  }
+
+  .footer {
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main__brands-section-img {
+    width: 100px;
+    height: 100px;
+
+    padding: 20px;
+  }
+
+  .footer {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+
+    padding-top: 10px;
+    height: 300px;
+
+    margin-top: 50px;
+  }
+}

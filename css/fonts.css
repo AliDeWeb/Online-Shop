@@ -1,0 +1,337 @@
+/* Font Faces */
+@font-face {
+  font-family: "dana";
+  src: url("../files/fonts/dana/Dana-Regular.TTF") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "dana bold";
+  src: url("../files/fonts/dana/Dana-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "dela gothic one";
+  src: url("../files/fonts/dela-gothic-one/DelaGothicOne-Regular.woff2")
+    format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "noora num black";
+  src: url("../files/fonts/noora/Noora-Num-Black.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "rokh extra bold";
+  src: url("../files/fonts/rokh/Rokh-ExtraBold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "YekanBakh";
+  src: url("../files/fonts/yekan-bakh/YekanBakh-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* Font Sizes */
+.fs_12 {
+  font-size: 12px;
+}
+
+.fs_14 {
+  font-size: 14px;
+}
+
+.fs_18 {
+  font-size: 18px;
+}
+
+.fs_20 {
+  font-size: 20px;
+}
+
+.fs_22 {
+  font-size: 22px;
+}
+
+.fs_24 {
+  font-size: 24px;
+}
+
+.fs_26 {
+  font-size: 26px;
+}
+
+.fs_28 {
+  font-size: 28px;
+}
+
+.fs_30 {
+  font-size: 30px;
+}
+
+.fs_34 {
+  font-size: 34px;
+}
+
+.fs_38 {
+  font-size: 38px;
+}
+
+.fs_40 {
+  font-size: 40px;
+}
+
+/* Font Breakpoints */
+@media (max-width: 1400px) {
+  .fs_xxl_12 {
+    font-size: 12px;
+  }
+
+  .fs_xxl_14 {
+    font-size: 14px;
+  }
+
+  .fs_xxl_18 {
+    font-size: 18px;
+  }
+
+  .fs_xxl_20 {
+    font-size: 20px;
+  }
+
+  .fs_xxl_22 {
+    font-size: 22px;
+  }
+
+  .fs_xxl_24 {
+    font-size: 24px;
+  }
+
+  .fs_xxl_26 {
+    font-size: 26px;
+  }
+
+  .fs_xxl_28 {
+    font-size: 28px;
+  }
+
+  .fs_xxl_30 {
+    font-size: 30px;
+  }
+
+  .fs_xxl_34 {
+    font-size: 34px;
+  }
+
+  .fs_xxl_38 {
+    font-size: 38px;
+  }
+
+  .fs_xxl_40 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .fs_xl_12 {
+    font-size: 12px;
+  }
+
+  .fs_xl_14 {
+    font-size: 14px;
+  }
+
+  .fs_xl_18 {
+    font-size: 18px;
+  }
+
+  .fs_xl_20 {
+    font-size: 20px;
+  }
+
+  .fs_xl_22 {
+    font-size: 22px;
+  }
+
+  .fs_xl_24 {
+    font-size: 24px;
+  }
+
+  .fs_xl_26 {
+    font-size: 26px;
+  }
+
+  .fs_xl_28 {
+    font-size: 28px;
+  }
+
+  .fs_xl_30 {
+    font-size: 30px;
+  }
+
+  .fs_xxl_34 {
+    font-size: 34px;
+  }
+
+  .fs_xl_38 {
+    font-size: 38px;
+  }
+
+  .fs_xl_40 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .fs_lg_12 {
+    font-size: 12px;
+  }
+
+  .fs_lg_14 {
+    font-size: 14px;
+  }
+
+  .fs_lg_18 {
+    font-size: 18px;
+  }
+
+  .fs_lg_20 {
+    font-size: 20px;
+  }
+
+  .fs_lg_22 {
+    font-size: 22px;
+  }
+
+  .fs_lg_24 {
+    font-size: 24px;
+  }
+
+  .fs_lg_26 {
+    font-size: 26px;
+  }
+
+  .fs_lg_28 {
+    font-size: 28px;
+  }
+
+  .fs_lg_30 {
+    font-size: 30px;
+  }
+
+  .fs_lg_34 {
+    font-size: 34px;
+  }
+
+  .fs_lg_38 {
+    font-size: 38px;
+  }
+
+  .fs_lg_40 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fs_md_12 {
+    font-size: 12px;
+  }
+
+  .fs_md_14 {
+    font-size: 14px;
+  }
+
+  .fs_md_18 {
+    font-size: 18px;
+  }
+
+  .fs_md_20 {
+    font-size: 20px;
+  }
+
+  .fs_md_22 {
+    font-size: 22px;
+  }
+
+  .fs_md_24 {
+    font-size: 24px;
+  }
+
+  .fs_md_26 {
+    font-size: 26px;
+  }
+
+  .fs_md_28 {
+    font-size: 28px;
+  }
+
+  .fs_md_30 {
+    font-size: 30px;
+  }
+
+  .fs_md_34 {
+    font-size: 34px;
+  }
+
+  .fs_md_38 {
+    font-size: 38px;
+  }
+
+  .fs_md_40 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .fs_sm_12 {
+    font-size: 12px;
+  }
+
+  .fs_sm_14 {
+    font-size: 14px;
+  }
+
+  .fs_sm_18 {
+    font-size: 18px;
+  }
+
+  .fs_sm_20 {
+    font-size: 20px;
+  }
+
+  .fs_sm_22 {
+    font-size: 22px;
+  }
+
+  .fs_sm_24 {
+    font-size: 24px;
+  }
+
+  .fs_sm_26 {
+    font-size: 26px;
+  }
+
+  .fs_sm_28 {
+    font-size: 28px;
+  }
+
+  .fs_sm_30 {
+    font-size: 30px;
+  }
+
+  .fs_sm_34 {
+    font-size: 34px;
+  }
+
+  .fs_sm_38 {
+    font-size: 38px;
+  }
+
+  .fs_sm_40 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الکتروشاپ</title>
+    <link rel="icon" href="./files/imgs/fav-icon.png" />
+    <link rel="stylesheet" href="./css/app.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script src="./js/bootstrap.min.js" defer></script>
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Header Top Section -->
+      <div class="py-2 py-lg-4">
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center gap-4 w-50">
+              <h1 class="fs_38 font_dana_bold fs_md_34 fs_sm_26">الکتروشاپ</h1>
+              <form
+                class="bg_F5F5F5 input-group py-3 rounded-5 px-4 w-100 d-none d-lg-flex"
+              >
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="14.7082"
+                    cy="14.7082"
+                    r="11.2357"
+                    stroke="#AEAEAE"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M22.5229 23.1064L26.9279 27.5"
+                    stroke="#AEAEAE"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <input
+                  type="text"
+                  class="form-control font_dana_bold fs_12 bg_F5F5F5 rounded-3 px-2"
+                  placeholder="محصول مورد نظر خود را وارد کنید"
+                />
+              </form>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <div class="bg_F5F5F5 p-3 rounded-4 d-none d-lg-block">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.6203 6.474H16.4136C16.3872 4.003 14.4242 2 12.0117 2C10.7967 2.017 9.723 2.46 8.88729 3.311C8.06231 4.149 7.60398 5.265 7.58643 6.474H7.3797C4.68923 6.474 2.5 8.719 2.5 11.479V16.995C2.5 19.755 4.68923 22 7.3797 22C7.78341 22 8.11107 21.664 8.11107 21.25C8.11107 20.836 7.78341 20.5 7.3797 20.5C5.49569 20.5 3.96274 18.928 3.96274 16.995V11.479C3.96274 9.546 5.49569 7.974 7.3797 7.974H7.58155V9.555C7.58155 9.969 7.90921 10.305 8.31292 10.305C8.71664 10.305 9.04429 9.969 9.04429 9.555V6.509C9.04722 5.702 9.35732 4.944 9.91608 4.375C10.4768 3.808 11.2247 3.545 12.0088 3.5C13.6168 3.5 14.9245 4.83 14.9508 6.474H11.7513C11.3476 6.474 11.02 6.81 11.02 7.224C11.02 7.638 11.3476 7.974 11.7513 7.974H14.9557V9.555C14.9557 9.969 15.2834 10.305 15.6871 10.305C16.0908 10.305 16.4184 9.969 16.4184 9.555V7.974H16.6203C18.5043 7.974 20.0373 9.546 20.0373 11.479V16.995C20.0373 18.928 18.5043 20.5 16.6203 20.5H11.3632C10.9595 20.5 10.6319 20.836 10.6319 21.25C10.6319 21.664 10.9595 22 11.3632 22H16.6203C19.3108 22 21.5 19.755 21.5 16.995V11.479C21.5 8.719 19.3108 6.474 16.6203 6.474Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <a
+                href="#"
+                class="header__login-btn text-reset rounded-4 py-1 px-2 py-sm-3 px-sm-4 font_dana_bold fs_12"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.05839 7.35384C8.05839 5.19389 9.82644 3.43694 12 3.43694C14.1736 3.43694 15.9417 5.19389 15.9417 7.35384C15.9417 9.51279 14.1736 11.2697 12 11.2697C9.82644 11.2697 8.05839 9.51279 8.05839 7.35384ZM6.61235 7.35387C6.61235 10.3048 9.02946 12.7067 12 12.7067C14.9706 12.7067 17.3867 10.3048 17.3867 7.35387C17.3867 4.40194 14.9706 2 12 2C9.02946 2 6.61235 4.40194 6.61235 7.35387ZM10.9776 21.985C11.3127 21.995 11.6538 22 12 22C15.4345 22 20 21.619 20 18.3301C20 14.6392 13.9784 14.6392 12 14.6392C8.56554 14.6392 4 15.0202 4 18.3101C4 19.2951 4.46088 20.624 6.6566 21.363C7.03598 21.493 7.44453 21.288 7.57333 20.913C7.70113 20.538 7.49887 20.131 7.1205 20.004C5.61811 19.498 5.44503 18.7951 5.44503 18.3101C5.44503 16.8271 7.65082 16.0751 12 16.0751C16.3492 16.0751 18.555 16.8341 18.555 18.3301C18.555 19.812 16.3492 20.563 12 20.563C11.6679 20.563 11.3409 20.559 11.0189 20.55C10.6325 20.553 10.2883 20.851 10.2772 21.247C10.2652 21.644 10.5791 21.975 10.9776 21.985Z"
+                    fill="#0E0B00"
+                  />
+                </svg>
+
+                ورود و عضویت
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header Navbar -->
+      <div class="py-2 py-lg-4">
+        <div class="container">
+          <div class="bg_F5F5F5 rounded-3 overflow-hidden">
+            <nav class="navbar navbar-expand">
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto font_dana fs_md_14 fs_sm_12">
+                  <li class="nav-item active_page py-1 py-sm-3">
+                    <a class="nav-link" href="#">
+                      <svg
+                        width="25"
+                        height="25"
+                        viewBox="0 0 25 25"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M22.3867 5.66994V8.65135C22.3965 9.46198 22.0904 10.2434 21.5358 10.8236C20.9812 11.4038 20.2235 11.7354 19.4294 11.7453H18.2171C17.8064 11.7004 17.4949 11.3466 17.4949 10.9249C17.4949 10.5032 17.8064 10.1494 18.2171 10.1046H19.3927C19.7645 10.1021 20.12 9.94827 20.3804 9.67723C20.6407 9.40618 20.7844 9.0403 20.7795 8.66072V5.66994C20.7696 4.8923 20.1544 4.26434 19.3927 4.25424H16.4629C15.697 4.25424 15.0762 4.88807 15.0762 5.66994V10.1421C15.0612 10.5955 14.694 10.9537 14.2496 10.9483C14.036 10.9435 13.8333 10.8515 13.6866 10.6929C13.5399 10.5344 13.4615 10.3225 13.4689 10.1046V5.66994C13.4665 4.85771 13.7809 4.07789 14.3426 3.50267C14.9044 2.92745 15.6673 2.60415 16.4629 2.60416H19.3927C21.0334 2.64393 22.3527 3.99494 22.3867 5.66994ZM8.53709 2.60416H5.60738C3.95293 2.61439 2.61421 3.98101 2.60419 5.66994V8.66072C2.61426 10.3481 3.95442 11.712 5.60738 11.7171H8.53709C9.33274 11.7196 10.0966 11.3987 10.6601 10.8253C11.2236 10.2518 11.5403 9.47296 11.5403 8.66072V5.66994C11.5352 3.97889 10.1936 2.6093 8.53709 2.60416ZM9.92389 8.66072C9.92879 9.0403 9.78514 9.40618 9.5248 9.67723C9.26446 9.94827 8.90894 10.1021 8.53709 10.1046H5.60738C5.23 10.1123 4.86584 9.96265 4.59893 9.69019C4.33203 9.41772 4.18546 9.04597 4.19303 8.66072V5.66994C4.19296 5.28955 4.34284 4.92513 4.60891 4.65881C4.87497 4.3925 5.23483 4.24669 5.60738 4.25424H8.53709C9.30092 4.25936 9.91888 4.8902 9.92389 5.66994V8.66072ZM16.4629 13.2828H19.3927C21.0456 13.288 22.3858 14.6519 22.3959 16.3393V19.33C22.3858 21.019 21.0471 22.3856 19.3927 22.3958H16.4629C14.81 22.3855 13.4739 21.0174 13.4689 19.33V16.3393C13.4689 14.6512 14.8094 13.2828 16.4629 13.2828ZM20.376 20.3339C20.6366 20.0678 20.7819 19.7063 20.7795 19.33V16.3393C20.7795 15.9638 20.6334 15.6037 20.3733 15.3382C20.1132 15.0727 19.7605 14.9236 19.3927 14.9236H16.4629C15.697 14.9236 15.0762 15.5574 15.0762 16.3393V19.33C15.0737 19.7063 15.219 20.0678 15.4796 20.3339C15.7402 20.5999 16.0944 20.7483 16.4629 20.7457H19.3927C19.7612 20.7483 20.1154 20.5999 20.376 20.3339ZM2.60419 19.3207V16.3393C2.60418 15.527 2.92088 14.7482 3.48436 14.1747C4.04783 13.6013 4.81173 13.2804 5.60738 13.2829H6.81049C7.1181 13.2492 7.41753 13.3978 7.58164 13.6656C7.74575 13.9333 7.74575 14.2731 7.58164 14.5409C7.41753 14.8086 7.1181 14.9572 6.81049 14.9236H5.60738C4.83997 14.9236 4.21645 15.5559 4.2114 16.3393V19.2925C4.23091 20.0696 4.84603 20.6935 5.60738 20.7082H8.55546C8.92485 20.7107 9.27995 20.5627 9.54202 20.2969C9.80408 20.0312 9.95145 19.6696 9.95144 19.2925V14.8579C9.89154 14.5268 10.0348 14.1917 10.3134 14.0113C10.592 13.831 10.95 13.8416 11.2179 14.0382C11.4858 14.2347 11.6097 14.5778 11.5311 14.9048V19.3207C11.5311 21.0139 10.1865 22.3865 8.52791 22.3865H5.60738C3.9631 22.3516 2.6383 20.9992 2.60419 19.3207Z"
+                          fill="black"
+                        />
+                      </svg>
+
+                      محصولات
+                    </a>
+                  </li>
+                  <li class="nav-item py-1 py-sm-3">
+                    <a class="nav-link" href="#">پرفروش ترین ها</a>
+                  </li>
+                  <li class="nav-item py-1 py-sm-3">
+                    <a class="nav-link" href="#">برترین موبایل ها</a>
+                  </li>
+                  <li class="nav-item py-1 py-sm-3 d-none d-sm-block">
+                    <a class="nav-link" href="#">فروشنده شوید</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <main>
+      <!-- Top Banner -->
+      <section>
+        <div class="py-2 py-lg-4">
+          <div class="container">
+            <div
+              class="row main__top-site-section-products-wrapper row-gap-3 justify-content-center"
+            >
+              <div class="col-12 col-md-5">
+                <a href="#">
+                  <img
+                    src="./files/imgs/main/top-banner/left-product.png"
+                    alt="banner"
+                  />
+                </a>
+              </div>
+              <div class="col-12 col-md-7">
+                <a href="#">
+                  <img
+                    src="./files/imgs/main/top-banner/right-product.png"
+                    alt="banner"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Top Products section -->
+      <section>
+        <div class="py-2 py-lg-4">
+          <div class="container">
+            <h2
+              class="main__section-titles fs_38 fs_lg_28 fs_md_22 fs_sm_18 font_rokh_extra_bold pt-4 pb-5 position-relative text-center text-md-start"
+            >
+              محبوب ترین ها
+            </h2>
+            <div class="card-group align-items-center">
+              <div class="card p-3">
+                <img
+                  src="./files/imgs/main/products/01.png"
+                  class="card-img-top"
+                  alt="product img"
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title font_dana_bold">ماوس ونزو مدل V9</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                    >
+                      <p class="card-text font_noora_num_black fs_20 h-100">
+                        800,000
+                      </p>
+                      <img
+                        class="main__products-section-price-icon ms-1"
+                        src="./files/imgs/main/price-icon.png"
+                        alt="icon"
+                      />
+                    </div>
+                  </div>
+
+                  <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img
+                  src="./files/imgs/main/products/02.png"
+                  class="card-img-top"
+                  alt="product img"
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title font_dana_bold">ماوس ونزو مدل V9</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                    >
+                      <p class="card-text font_noora_num_black fs_20 h-100">
+                        800,000
+                      </p>
+                      <img
+                        class="main__products-section-price-icon ms-1"
+                        src="./files/imgs/main/price-icon.png"
+                        alt="icon"
+                      />
+                    </div>
+                  </div>
+
+                  <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img
+                  src="./files/imgs/main/products/03.png"
+                  class="card-img-top"
+                  alt="product img"
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title font_dana_bold">ماوس ونزو مدل V9</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                    >
+                      <p class="card-text font_noora_num_black fs_20 h-100">
+                        800,000
+                      </p>
+                      <img
+                        class="main__products-section-price-icon ms-1"
+                        src="./files/imgs/main/price-icon.png"
+                        alt="icon"
+                      />
+                    </div>
+                  </div>
+
+                  <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img
+                  src="./files/imgs/main/products/04.png"
+                  class="card-img-top"
+                  alt="product img"
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title font_dana_bold">ماوس ونزو مدل V9</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                    >
+                      <p class="card-text font_noora_num_black fs_20 h-100">
+                        800,000
+                      </p>
+                      <img
+                        class="main__products-section-price-icon ms-1"
+                        src="./files/imgs/main/price-icon.png"
+                        alt="icon"
+                      />
+                    </div>
+                  </div>
+
+                  <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Top Products section -->
+      <section>
+        <div class="py-2 py-lg-4">
+          <div class="container">
+            <h2
+              class="main__section-titles fs_38 fs_lg_28 fs_md_22 fs_sm_18 font_rokh_extra_bold pt-4 pb-5 position-relative text-center text-md-start"
+            >
+              مد روز
+            </h2>
+            <div class="card-group align-items-center">
+              <div class="card p-3">
+                <img
+                  src="./files/imgs/main/products/01.png"
+                  class="card-img-top"
+                  alt="product img"
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title font_dana_bold">ماوس ونزو مدل V9</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                    >
+                      <p class="card-text font_noora_num_black fs_20 h-100">
+                        800,000
+                      </p>
+                      <img
+                        class="main__products-section-price-icon ms-1"
+                        src="./files/imgs/main/price-icon.png"
+                        alt="icon"
+                      />
+                    </div>
+                  </div>
+
+                  <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img
+                  src="./files/imgs/main/products/02.png"
+                  class="card-img-top"
+                  alt="product img"
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title font_dana_bold">ماوس ونزو مدل V9</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                    >
+                      <p class="card-text font_noora_num_black fs_20 h-100">
+                        800,000
+                      </p>
+                      <img
+                        class="main__products-section-price-icon ms-1"
+                        src="./files/imgs/main/price-icon.png"
+                        alt="icon"
+                      />
+                    </div>
+                  </div>
+
+                  <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img
+                  src="./files/imgs/main/products/03.png"
+                  class="card-img-top"
+                  alt="product img"
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title font_dana_bold">ماوس ونزو مدل V9</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                    >
+                      <p class="card-text font_noora_num_black fs_20 h-100">
+                        800,000
+                      </p>
+                      <img
+                        class="main__products-section-price-icon ms-1"
+                        src="./files/imgs/main/price-icon.png"
+                        alt="icon"
+                      />
+                    </div>
+                  </div>
+
+                  <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img
+                  src="./files/imgs/main/products/04.png"
+                  class="card-img-top"
+                  alt="product img"
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title font_dana_bold">ماوس ونزو مدل V9</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                    >
+                      <p class="card-text font_noora_num_black fs_20 h-100">
+                        800,000
+                      </p>
+                      <img
+                        class="main__products-section-price-icon ms-1"
+                        src="./files/imgs/main/price-icon.png"
+                        alt="icon"
+                      />
+                    </div>
+                  </div>
+
+                  <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Main Banner -->
+      <section>
+        <div class="py-2 py-lg-4">
+          <div class="container">
+            <div id="main__mian-banner" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="#" class="d-block w-100">
+                    <img
+                      src="./files/imgs/main/main-banner/img1.png"
+                      class="d-block w-100"
+                      alt="main banner"
+                    />
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#" class="d-block w-100">
+                    <img
+                      src="./files/imgs/main/main-banner/img1.png"
+                      class="d-block w-100"
+                      alt="main banner"
+                    />
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#" class="d-block w-100">
+                    <img
+                      src="./files/imgs/main/main-banner/img1.png"
+                      class="d-block w-100"
+                      alt="main banner"
+                    />
+                  </a>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#main__mian-banner"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#main__mian-banner"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Main Brands -->
+      <section>
+        <div class="py-2 py-lg-4">
+          <div class="container">
+            <h2
+              class="main__section-titles fs_38 fs_lg_28 fs_md_22 fs_sm_18 font_rokh_extra_bold pt-4 pb-5 position-relative text-center text-md-start"
+            >
+              محبوب ترین برند ها
+            </h2>
+            <div class="row align-items-center px-5 row-gap-4">
+              <div class="col-6 col-md-3 d-flex justify-content-center">
+                <div
+                  class="main__brands-section-img d-flex align-items-center bg_F3F3F3 rounded-3"
+                >
+                  <a href="#" class="d-block w-100">
+                    <img src="./files/imgs/main/brands/samsung.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-md-3 d-flex justify-content-center">
+                <div
+                  class="main__brands-section-img d-flex align-items-center bg_F3F3F3 rounded-3"
+                >
+                  <a href="#" class="d-block w-100">
+                    <img src="./files/imgs/main/brands/tasko.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-md-3 d-flex justify-content-center">
+                <div
+                  class="main__brands-section-img d-flex align-items-center bg_F3F3F3 rounded-3"
+                >
+                  <a href="#" class="d-block w-100">
+                    <img src="./files/imgs/main/brands/asus.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-md-3 d-flex justify-content-center">
+                <div
+                  class="main__brands-section-img d-flex align-items-center bg_F3F3F3 rounded-3"
+                >
+                  <a href="#" class="d-block w-100">
+                    <img src="./files/imgs/main/brands/jbl.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-md-3 d-flex justify-content-center">
+                <div
+                  class="main__brands-section-img d-flex align-items-center bg_F3F3F3 rounded-3"
+                >
+                  <a href="#" class="d-block w-100">
+                    <img src="./files/imgs/main/brands/jbl.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-md-3 d-flex justify-content-center">
+                <div
+                  class="main__brands-section-img d-flex align-items-center bg_F3F3F3 rounded-3"
+                >
+                  <a href="#" class="d-block w-100">
+                    <img src="./files/imgs/main/brands/jbl.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-md-3 d-flex justify-content-center">
+                <div
+                  class="main__brands-section-img d-flex align-items-center bg_F3F3F3 rounded-3"
+                >
+                  <a href="#" class="d-block w-100">
+                    <img src="./files/imgs/main/brands/jbl.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-md-3 d-flex justify-content-center">
+                <div
+                  class="main__brands-section-img d-flex align-items-center bg_F3F3F3 rounded-3"
+                >
+                  <a href="#" class="d-block w-100">
+                    <img src="./files/imgs/main/brands/jbl.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Top Products section -->
+      <section>
+        <div class="py-2 py-lg-4">
+          <div class="container">
+            <h2
+              class="main__section-titles fs_38 fs_lg_28 fs_md_22 fs_sm_18 font_rokh_extra_bold pt-4 pb-5 position-relative text-center text-md-start"
+            >
+              پرفروش ترین ها
+            </h2>
+            <div class="card-group align-items-center">
+              <div class="card p-3">
+                <img
+                  src="./files/imgs/main/products/01.png"
+                  class="card-img-top"
+                  alt="product img"
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title font_dana_bold">ماوس ونزو مدل V9</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                    >
+                      <p class="card-text font_noora_num_black fs_20 h-100">
+                        800,000
+                      </p>
+                      <img
+                        class="main__products-section-price-icon ms-1"
+                        src="./files/imgs/main/price-icon.png"
+                        alt="icon"
+                      />
+                    </div>
+                  </div>
+
+                  <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img
+                  src="./files/imgs/main/products/02.png"
+                  class="card-img-top"
+                  alt="product img"
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title font_dana_bold">ماوس ونزو مدل V9</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                    >
+                      <p class="card-text font_noora_num_black fs_20 h-100">
+                        800,000
+                      </p>
+                      <img
+                        class="main__products-section-price-icon ms-1"
+                        src="./files/imgs/main/price-icon.png"
+                        alt="icon"
+                      />
+                    </div>
+                  </div>
+
+                  <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img
+                  src="./files/imgs/main/products/03.png"
+                  class="card-img-top"
+                  alt="product img"
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title font_dana_bold">ماوس ونزو مدل V9</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                    >
+                      <p class="card-text font_noora_num_black fs_20 h-100">
+                        800,000
+                      </p>
+                      <img
+                        class="main__products-section-price-icon ms-1"
+                        src="./files/imgs/main/price-icon.png"
+                        alt="icon"
+                      />
+                    </div>
+                  </div>
+
+                  <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img
+                  src="./files/imgs/main/products/04.png"
+                  class="card-img-top"
+                  alt="product img"
+                />
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title font_dana_bold">ماوس ونزو مدل V9</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                    >
+                      <p class="card-text font_noora_num_black fs_20 h-100">
+                        800,000
+                      </p>
+                      <img
+                        class="main__products-section-price-icon ms-1"
+                        src="./files/imgs/main/price-icon.png"
+                        alt="icon"
+                      />
+                    </div>
+                  </div>
+
+                  <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Discounted Products -->
+      <section>
+        <div class="py-2 py-lg-4">
+          <div class="container">
+            <div class="bg_FFC700 p-3 p-md-4 rounded-3">
+              <div class="bg-white p-3 p-md-5 rounded-3">
+                <div class="row align-items-center">
+                  <div class="col-12 col-md-5">
+                    <div>
+                      <h3
+                        class="main__most-discounted-products-section-title font_rokh_extra_bold fs_40 fs_md_30"
+                      >
+                        شگفت انگیز ترین تخفیف سال
+
+                        <img
+                          src="./files/imgs/main/discount-icon.png"
+                          alt="icon"
+                          class="main__discount-icon ms-4"
+                        />
+                      </h3>
+                      <div
+                        class="d-flex justify-content-center justify-content-md-start"
+                      >
+                        <a
+                          href="#"
+                          class="btn text-reset fs_14 font_dana_bold mt-md-5"
+                          >مشاهده همه
+
+                          <svg
+                            width="19"
+                            height="19"
+                            viewBox="0 0 19 19"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M4.03731 9.5L15.4375 9.5"
+                              stroke="black"
+                              stroke-linecap="square"
+                            />
+                            <path
+                              d="M8.35193 14.2695L3.56234 9.5005L8.35193 4.73071"
+                              stroke="black"
+                              stroke-linecap="square"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-7 d-none d-md-flex">
+                    <div class="card-group align-items-center">
+                      <div class="card p-3">
+                        <img
+                          src="./files/imgs/main/products/01.png"
+                          class="card-img-top"
+                          alt="product img"
+                        />
+                        <div class="card-body">
+                          <h5
+                            class="card-title font_dana_bold text-center text-xl-start"
+                          >
+                            ماوس ونزو مدل V9
+                          </h5>
+                          <div
+                            class="d-flex align-items-center justify-content-center justify-content-xl-start mb-3"
+                          >
+                            <p
+                              class="card-text font_noora_num_black fs_20 h-100"
+                            >
+                              800,000
+                            </p>
+                            <img
+                              class="main__products-section-price-icon ms-1"
+                              src="./files/imgs/main/price-icon.png"
+                              alt="icon"
+                            />
+                          </div>
+                          <div
+                            class="d-flex justify-content-center justify-content-xl-start"
+                          >
+                            <a
+                              href="#"
+                              class="link_tag_text_center btn main__products-items-btn"
+                              >مشاهده</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card p-3 d-none d-xl-flex">
+                        <img
+                          src="./files/imgs/main/products/02.png"
+                          class="card-img-top"
+                          alt="product img"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title font_dana_bold">
+                            هدست های فیوچر مدل FutureTour
+                          </h5>
+                          <div
+                            class="d-flex align-items-center justify-content-center justify-content-md-start mb-3"
+                          >
+                            <p
+                              class="card-text font_noora_num_black fs_20 h-100"
+                            >
+                              800,000
+                            </p>
+                            <img
+                              class="main__products-section-price-icon ms-1"
+                              src="./files/imgs/main/price-icon.png"
+                              alt="icon"
+                            />
+                          </div>
+
+                          <a href="#" class="btn main__products-items-btn">مشاهده</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Discount Brands -->
+      <section>
+        <div class="py-2 py-lg-4">
+          <div class="container">
+            <div
+              id="discounted-brands-wrapper"
+              class="carousel slide rounded-2 overflow-hidden"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="#" class="d-block w-100">
+                    <img
+                      src="./files/imgs/main/discount-banner/img1.png"
+                      class="d-block w-100"
+                      alt="Banner"
+                    />
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#" class="d-block w-100">
+                    <img
+                      src="./files/imgs/main/discount-banner/img1.png"
+                      class="d-block w-100"
+                      alt="Banner"
+                    />
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#" class="d-block w-100">
+                    <img
+                      src="./files/imgs/main/discount-banner/img1.png"
+                      class="d-block w-100"
+                      alt="Banner"
+                    />
+                  </a>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#discounted-brands-wrapper"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#discounted-brands-wrapper"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="py-2 py-lg-4">
+        <div class="container">
+          <div>
+            <span
+              class="font_dana_bold fs_40 d-block text-center fs_md_30 fs_sm_26"
+              >الکتروشاپ</span
+            >
+            <p class="text-center fs_14 font_dana_bold mt-2">
+              بهترین و تخصصی ترین فروشگاه خدمات کامپیوتر در ایران
+            </p>
+            <div class="d-flex justify-content-center mt-5">
+              <a href="#" class="text-black font_dana">پرفروش ترین ها</a>
+              <span class="px-2 px-md-5">|</span>
+              <a href="#" class="text-black font_dana">برترین موبایل ها</a>
+              <span class="px-2 px-md-5">|</span>
+              <a href="#" class="text-secondary font_dana">فروشنده شوید</a>
+            </div>
+            <div
+              class="footer__social-icons-wrapper d-flex align-items-center justify-content-center mt-5 gap-md-5 gap-3"
+            >
+              <div class="rounded-5 p-3 footer__social-icons-items">
+                <a href="#">
+                  <svg
+                    width="34"
+                    height="34"
+                    viewBox="0 0 34 34"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.5298 31.6482H14.4436V21.8427H13.1588C12.3743 21.8427 11.7387 21.2071 11.7387 20.4226V17.8529C11.7387 17.0684 12.3743 16.4328 13.1588 16.4328H14.4436V13.0516C14.4436 10.2519 16.7158 7.97974 19.5155 7.97974H23.1672C23.9516 7.97974 24.5873 8.61539 24.5873 9.39983V12.6458C24.5873 13.4303 23.9516 14.0659 23.1672 14.0659H20.5298V16.4328H23.0725C23.5053 16.4328 23.8975 16.6221 24.168 16.9467C24.4385 17.2713 24.5467 17.7041 24.4656 18.1234L23.9516 20.6931C23.8164 21.3558 23.2348 21.8292 22.5586 21.8292H20.5298V31.6482ZM16.4724 29.6195H18.5011V19.814H22.0717L22.3422 18.4615H18.5146V13.4573C18.5146 12.6728 19.1503 12.0372 19.9347 12.0372H22.5721V10.0085H19.5155C17.8384 10.0085 16.4724 11.3745 16.4724 13.0516V18.4615H13.7674V19.814H16.4724V29.6195Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M20.8679 31.648H12.753C5.40902 31.648 2.27126 28.5103 2.27126 21.1663V13.0514C2.27126 5.70735 5.40902 2.56958 12.753 2.56958H20.8679C28.2119 2.56958 31.3497 5.70735 31.3497 13.0514V21.1663C31.3497 28.5103 28.2119 31.648 20.8679 31.648ZM12.753 4.59831C6.51806 4.59831 4.29999 6.81639 4.29999 13.0514V21.1663C4.29999 27.4012 6.51806 29.6193 12.753 29.6193H20.8679C27.1029 29.6193 29.321 27.4012 29.321 21.1663V13.0514C29.321 6.81639 27.1029 4.59831 20.8679 4.59831H12.753Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="rounded-5 p-3 footer__social-icons-items">
+                <a href="#">
+                  <svg
+                    width="33"
+                    height="34"
+                    viewBox="0 0 33 34"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.4083 31.648H12.2933C4.94935 31.648 1.81158 28.5103 1.81158 21.1663V13.0514C1.81158 5.70735 4.94935 2.56958 12.2933 2.56958H20.4083C27.7523 2.56958 30.89 5.70735 30.89 13.0514V21.1663C30.89 28.5103 27.7523 31.648 20.4083 31.648ZM12.2933 4.59831C6.05838 4.59831 3.84031 6.81639 3.84031 13.0514V21.1663C3.84031 27.4012 6.05838 29.6193 12.2933 29.6193H20.4083C26.6432 29.6193 28.8613 27.4012 28.8613 21.1663V13.0514C28.8613 6.81639 26.6432 4.59831 20.4083 4.59831H12.2933Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M16.3508 22.8572C13.186 22.8572 10.6027 20.274 10.6027 17.1092C10.6027 13.9443 13.186 11.3611 16.3508 11.3611C19.5156 11.3611 22.0989 13.9443 22.0989 17.1092C22.0989 20.274 19.5156 22.8572 16.3508 22.8572ZM16.3508 13.3898C14.295 13.3898 12.6315 15.0534 12.6315 17.1092C12.6315 19.1649 14.295 20.8285 16.3508 20.8285C18.4066 20.8285 20.0701 19.1649 20.0701 17.1092C20.0701 15.0534 18.4066 13.3898 16.3508 13.3898Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M23.1132 11.0228C22.9374 11.0228 22.7616 10.9822 22.5993 10.9146C22.437 10.847 22.2882 10.7523 22.153 10.6306C22.0313 10.4953 21.9231 10.3466 21.8554 10.1843C21.7878 10.022 21.7608 9.84615 21.7608 9.67033C21.7608 9.4945 21.7878 9.31868 21.8554 9.15638C21.9366 8.98056 22.0313 8.84531 22.153 8.71006C22.2206 8.65596 22.2882 8.58834 22.3558 8.54776C22.437 8.49366 22.5181 8.45309 22.5993 8.42604C22.6804 8.38547 22.7616 8.35842 22.8563 8.34489C23.2891 8.25022 23.7489 8.39899 24.0735 8.71006C24.1952 8.84531 24.2899 8.98056 24.3575 9.15638C24.4252 9.31868 24.4657 9.4945 24.4657 9.67033C24.4657 9.84615 24.4252 10.022 24.3575 10.1843C24.2899 10.3466 24.1952 10.4953 24.0735 10.6306C23.9383 10.7523 23.7895 10.847 23.6272 10.9146C23.4649 10.9822 23.2891 11.0228 23.1132 11.0228Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="rounded-5 p-3 footer__social-icons-items">
+                <a href="#">
+                  <svg
+                    width="34"
+                    height="34"
+                    viewBox="0 0 34 34"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.192 30.1336C18.5961 30.1336 16.3375 29.011 14.5522 23.6416L13.5784 20.7203L10.657 19.7465C5.30117 17.9612 4.1786 15.7025 4.1786 14.1066C4.1786 12.5242 5.30117 10.252 10.657 8.45321L22.1396 4.62567C25.0069 3.66541 27.4008 3.94943 28.875 5.41011C30.3492 6.8708 30.6332 9.27822 29.673 12.1455L25.8454 23.6281C24.0466 29.011 21.788 30.1336 20.192 30.1336ZM11.2927 10.3873C7.53277 11.6451 6.19381 13.1328 6.19381 14.1066C6.19381 15.0804 7.53277 16.5681 11.2927 17.8124L14.7009 18.9485C14.9985 19.0432 15.2419 19.2866 15.3366 19.5842L16.4727 22.9924C17.717 26.7524 19.2183 28.0913 20.192 28.0913C21.1658 28.0913 22.6536 26.7524 23.9114 22.9924L27.7389 11.5098C28.4287 9.427 28.307 7.72287 27.4278 6.84375C26.5487 5.96463 24.8446 5.85643 22.7753 6.5462L11.2927 10.3873Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M14.6333 20.3549C14.3763 20.3549 14.1194 20.2602 13.9165 20.0574C13.5243 19.6651 13.5243 19.0159 13.9165 18.6237L18.7584 13.7683C19.1506 13.3761 19.7998 13.3761 20.192 13.7683C20.5843 14.1605 20.5843 14.8097 20.192 15.2019L15.3501 20.0574C15.1608 20.2602 14.8903 20.3549 14.6333 20.3549Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+/* External Files */
+@import url("./reset.css");
+@import url("./bootstrap.rtl.min.css");
+@import url("./fonts.css");
+
+/* Default Styles & Variables */
+:root {
+  /* Styles */
+  -webkit-tap-highlight-color: transparent;
+
+  /* Variables */
+  --font-dana: "dana";
+  --font-dana-bold: "dana bold";
+  --font-dgothicone: "dela gothic one";
+  --font-noora-num-black: "noora num black";
+  --font-rokh-extra-bold: "rokh extra bold";
+  --font-yekan-bakh: "YekanBakh";
+
+  --bg-F5F5F5: #f5f5f5;
+  --bg-F3F3F3: #f3f3f3;
+  --bg-FFC700: #ffc700;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 1vw;
+}
+
+::-webkit-scrollbar-track {
+  background-image: linear-gradient(278deg, #ffc700 7.71%, #ffdf6b 91.02%);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: var(--bg-F5F5F5);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #ebe9e9;
+}
+
+input {
+  outline: none !important;
+  border: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+img {
+  width: 100% !important;
+}
+
+/* Helper Classes */
+li.active_page {
+  background: linear-gradient(278deg, #ffc700 7.71%, #ffdf6b 91.02%);
+}
+
+.bg_F5F5F5 {
+  background-color: var(--bg-F5F5F5) !important;
+}
+
+.bg_F3F3F3 {
+  background-color: var(--bg-F3F3F3);
+}
+
+.bg_FFC700 {
+  background-color: var(--bg-FFC700);
+}
+
+.main__section-titles::after {
+  content: "";
+  position: absolute;
+  bottom: 32px;
+  right: 0;
+  width: 66px;
+  height: 10px;
+  border-radius: 2px;
+  background-color: #ffc700;
+}
+
+.font_dana {
+  font-family: var(--font-dana);
+}
+
+.font_dana_bold {
+  font-family: var(--font-dana-bold);
+}
+
+.font_dgothicone {
+  font-family: var(--font-dgothicone);
+}
+
+.font_noora_num_black {
+  font-family: var(--font-noora-num-black);
+}
+
+.font_rokh_extra_bold {
+  font-family: var(--font-rokh-extra-bold);
+}
+
+.font_yekan_bakh {
+  font-family: var(--font-yekan-bakh);
+}
+
+/* Custom Styles */
+.header__login-btn {
+  background: linear-gradient(278deg, #ffc700 7.71%, #ffdf6b 91.02%);
+}
+
+nav.navbar.navbar-expand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+a.nav-link {
+  color: #3d3d3d !important;
+
+  transition: all ease-in-out 150ms;
+}
+
+a.nav-link:hover {
+  color: #000 !important;
+}
+
+.main__top-site-section-products-wrapper > div.col-12 {
+  max-height: 400px;
+}
+
+.main__brands-section-img {
+  width: 135px;
+  height: 135px;
+
+  padding: 20px;
+}
+
+.card-img-top {
+  width: 192px !important;
+  height: 192px !important;
+
+  margin: 0 auto;
+}
+
+p.card-text {
+  margin-bottom: 0;
+}
+
+div.card {
+  height: 400px !important;
+  min-width: 275px !important;
+}
+
+.main__products-section-price-icon {
+  width: 17px !important;
+  height: 14px !important;
+}
+
+.main__discount-icon {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.main__most-discounted-products-section-title {
+  max-width: 300px;
+}
+
+.main__products-items-btn {
+  background-color: var(--bg-FFC700);
+
+  transition: all ease-in-out 150ms;
+}
+
+.main__products-items-btn:hover {
+  background-color: #f0bc00;
+}
+
+.footer {
+  border-top-right-radius: 240px;
+  border-top-left-radius: 240px;
+  background: linear-gradient(180deg, #ffc700 0%, rgb(255 199 0 / 67%) 100%);
+
+  padding-top: 10px;
+  height: 390px;
+
+  margin-top: 50px;
+}
+
+.footer__social-icons-items {
+  transition: all ease-in-out 150ms;
+}
+
+.footer__social-icons-items:hover {
+  transform: scale(1.2);
+}
+
+.footer__social-icons-wrapper > div {
+  background-color: rgba(0, 0, 0, 0.33);
+}
