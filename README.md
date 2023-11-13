@@ -7,6 +7,10 @@ Online-Shop is a front-end only website developed using HTML, CSS, and Bootstrap
 - **Homepage:** A single-page website dedicated to the buying and selling of electronic devices such as headphones, chargers, phones, and more.
 - **Responsive Design:** The site is designed to provide a seamless user experience across various devices.
 
+## View Online
+
+You can view the live version of the project by following this [link](https://alideweb.github.io/Online-Shop/).
+
 ## Technologies Used
 
 - HTML
