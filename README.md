@@ -10,15 +10,14 @@ Online-Shop is a front-end only website developed using HTML, CSS, and Bootstrap
 ## Technologies Used
 
 - HTML
-  <img style="display: block;" src="html-logo.png" width="30">
+  <img style="display: block;" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" width="30">
   <br>
 - CSS
-  <img style="display: block;" src="css-logo.png" width="30">
+  <img style="display: block;" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png" width="30">
   <br>
 - Bootstrap
-  <img style="display: block;" src="bootstrap-logo.png" width="30">
+  <img style="display: block;" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png" width="30">
   <br>
-
 
 ## Installation
 
